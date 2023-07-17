@@ -1,0 +1,28 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: auto;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+:roots {
+    --container-color: #F08080;
+    --second-color: #556B2F;
+    --text-color: #2F4F4F;
+    --bg-color: #D8BFD8;
+}
+a{
+    text-decoration: none; 
+}
+li {
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+section{
+    padding: 3rem 0 2rem; 
+}
