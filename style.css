@@ -1,28 +1,22 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
-*{
-    font-family: 'Caveat', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap')
+{
     margin: 0;
     padding: 0;
-    scroll-behavior: auto;
-    scroll-padding-top: 2rem;
-    box-sizing: border-box;
 }
-:roots {
-    --container-color: #F08080;
-    --second-color: #556B2F;
-    --text-color: #2F4F4F;
-    --bg-color: #D8BFD8;
+body{
+    /*width: 100vw;*/
+    /*height: 100vh;*/
+    /*display: flex; -> do not uncomment this*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    background-color: plum;
+    font-family: 'Balsamiq Sans', cursive;
 }
-a{
-    text-decoration: none; 
-}
-li {
-    list-style: none;
-}
-img{
-    width: 100%;
-}
-section{
-    padding: 3rem 0 2rem; 
+
+h1{
+    font-size: 50px;
+    -webkit-text-fill-color: pink;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 4px;
 }
