@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon.png">
      <!-- CSS link -->
-    <link rel="stylesheet" href="cc/style.css">
     <title>My Blog</title>
      <!-- box icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href= './style.css'>
+    <!-- link to JS -->
+    <link script src="./main.js"></script>
 
     <style>
         * {
@@ -20,103 +21,10 @@
         body {
           margin: 0;
         }
-    </style>
-    <!--<style>
-        .left {
-            background-color: #2196F3;
-            padding: 20px;
-            top: 0;
-            left:80%;
-            transform:translateX(-50%); 
-            width: 13%;
-            height:100px
-            /*float: right;*/
-            /*margin-right: 1454px;*/
-            /*height: 100px;*?
-            width: 6.5%; /* The width is 20%, by default */
-        }
-        </style>
-        <div class = "left">
-            <p></p>
-        </div> -->
-
-<!-- header for the blog-->
-    <style>
-    .Header {
-    background-color:plum;
-    /*border: 15px solid rgb(235, 39, 72);*/
-    /*margin: 20px;*/
-    padding: 30px;
-    /*width: 80%;*/
-    /*margin-left: 125px;*/
-    text-align: center;
-    /*border-radius: 12px;*/
-    }
-
-
-    /*navigation bar*/
-        .topnav {
-            overflow: hidden;
-            background-color: rgb(193, 68, 218);
-          }
-          
-          /* Style the topnav links */
-          .topnav a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-          }
-          
-          /* Change color on hover */
-          .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-          }
-          /* Create three unequal columns that floats next to each other */
-         .column {
-            float: left;
-            padding: 10px;
-         }
-
-          /* Left and right column */
-        .column.side {
-            width: 25%;
-         }
-
-         /* Middle column */
-        .column.middle {
-            width: 50%;
-        }
-
-        /* Clear floats after the columns */
-        .row::after {
-            content: "";
-            display: table;
-            clear: both;
-        } 
-
-        @media screen and (max-width: 600px) {
-        .column.side, .column.middle {
-            width: 100%;
-        }
-        }
-
     
-    /*.newbox {
-    border: 10px solid rgb(197, 21, 80);
-    background-color: rgb(255, 144, 181);
-    padding: 50px;
-    width: 75%;
-    margin-left: 130px;
-    height:max-content;
-    text-align: center;
-    border-radius: 12px;
-    }
-    p {color: black;} */
+
      </style>
+    
     </head>
 
 
@@ -134,30 +42,33 @@
     </header>
     
     <div class="topnav">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
+        <a href="#">About Me</a>
+        <a href="#">1st Post</a>
+        <a href="#">2nd Post</a>
+        <button onclick="darkMode()">Dark Mode</button>
+        <link script src="main.js"></script>
       </div>
 
       <div class="row">
         <div class="column side">
-          <h2>Side</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
-        </div>
+          <p></p>
+          </div>
 
     <div class="column middle">
         <h2>Main Content</h2>
-        <p><b> Hi Barbies! My name is Mallika and this is the start of my blog. </b></p>
+        <p class="name"><b> Hi Barbies! My name is Mallika and this is the start of my blog. </b></p>
         <p>Yes, I do know this is very mom core, but it is also very cute and, <em>unfortunately</em>, very code intensive. 
         just kidding coding gods who are looking at this (my brother), <u> whoever may you be.</u> I am using this as a funny little creative way to talk about my 
         life and I hope you guys can tell that I just recently watched the Barbie movie. I hope you all also watched the barbie movie because I will
         irrevocably never be the same ever again. It truly reminded me of every woman I've ever loved in my life in such a beautiful way. It reminded
-        me to keep my female friendships. Every single one of them are so important in my life. </p> 
+        me to keep my female friendships. Every single one of them are so important in my life. 
+    </p> 
+    
     </div>
 
     <div class="column side">
-        <h2>Side</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit..</p>
+
+        <p></p>
     </div>
 
 
@@ -170,10 +81,7 @@
     </div> -->
 
     
-    
-
    
-    <!-- link to JS -->
-    <script src="js/main.js"></script>
+    
 </body>
 </html>
